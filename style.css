@@ -1,0 +1,169 @@
+/*Some elemnts could not work, this is just a copy. I did not use any framework for this, so don't judje me too strict.*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/*The closest font for this was Roboto*/
+body {font-family: 'Roboto', sans-serif;
+font-weight: 100;}
+
+/*head*/
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.left_header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-menu
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.logo {
+    fill: #5bc055;
+    margin: 1rem;
+  }
+
+.nav-left
+{
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.flexbox-search
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-right
+{
+    margin: 2rem;
+}
+
+.button
+{
+    background-color: #5bc055;
+    border: none;
+    color:white;
+    border-radius: 6px;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+/*main part. video on the right*/
+.top-main
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.text-main
+{
+    float:left;
+    width:50%;
+    height: 32rem;
+    padding-top: 10%;
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+
+.header-main
+{
+    font-weight: 500;
+    font-size: 4rem;
+    margin-bottom: 3%;
+}
+
+.p-header-main
+{
+    padding-right: 10%;
+}
+.header-video
+{
+    float:right;
+    right:0;
+}
+
+.logos-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+/*features part*/
+.features {
+    height:50%;
+    background-color: #f3f6f9;
+}
+
+.features-header {
+    font-size: 1.8rem;
+    padding-right:50%;
+    padding-top:5%;
+    padding-left:5%;
+    padding-bottom:5%;
+}
+
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    grid-gap: 1%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.features {
+    padding:2%;
+}
+
+.features-h3 {
+    padding-bottom:4%;
+}
+
+/*svg pictures 24px on the original site*/
+.fea {
+    width:24px;
+    height:24px;
+    margin-bottom:6%;
+}
+
+/*footer*/
+.footer{
+    height:50%;
+    background-color: #00112c;
+    color:white;  
+    display: grid;
+    grid-template-columns: repeat(6, 18%);
+    grid-gap: 1%; 
+    padding: 5% 5% 7% 7%; 
+}
+
+.footer-li {
+    margin:5%;
+}
+@media (max-width: 600px){
+    video{
+    width:300px;
+    height:auto;
+   }  
+}
