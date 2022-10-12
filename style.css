@@ -161,9 +161,42 @@ font-weight: 100;}
 .footer-li {
     margin:5%;
 }
+
 @media (max-width: 600px){
     video{
     width:300px;
     height:auto;
    }  
+
+   .text-main
+   {
+       float:left;
+       width:80%;
+       height: 32rem;
+       padding-top: 10%;
+       text-align: left;
+       font-size: 1.5rem;
+   
+   }
+
+   .features-list {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-row: auto auto;
+    grid-gap: 1%;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+   .footer{
+    height:50%;
+    background-color: #00112c;
+    color:white;  
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-row: auto auto;
+    grid-gap: 1%; 
+    padding: 5% 5% 7% 7%; 
+}
 }
