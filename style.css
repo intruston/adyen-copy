@@ -162,6 +162,12 @@ font-weight: 100;}
     margin:5%;
 }
 
+#email {width:150%;
+    border-radius: 6px;
+    color: white;
+    background-color: #00112c;
+    border-color: #374661;}
+
 @media (max-width: 600px){
     video{
     width:300px;
