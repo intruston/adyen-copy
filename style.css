@@ -172,6 +172,16 @@ li.nav-left:hover {
     margin: 5%;
 }
 
+.email {
+    margin: 5%;
+    height: 2rem;
+    border: 2px solid #374661;
+}
+
+.privacy {font-size:0.7rem;
+margin-left:5%;
+}
+
 #email {width:140%;
     border-radius: 6px;
     color: white;
