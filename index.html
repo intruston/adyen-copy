@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="site-wrapper home">
-        <div class="header">
+        <div class="header" id="mynav">
           <div class="left_header">
             <a class="logo" href="https://www.adyen.com/" data-segment-track="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="90" height="30" viewBox="0 0 90 30" aria-label="Adyen Logo" role="presentation" class="logo logo--green" title="Adyen">
@@ -31,6 +31,8 @@
               <li class="nav-right-ex">
                 <button type="button" class="button" onclick="alert('Sorry, we are not available')">Contact Us</button>
               </li>
+              <li class="menu"><a href="javascript:void(0);" onclick="myFunction()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></a></li>
           </ul>
           </div>
         </div>
@@ -104,4 +106,14 @@
           </div>
         </div>
         </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("mynav");
+            if (x.className === "header") {
+              x.className += " responsive";
+            } else {
+              x.className = "header";
+            }
+          }
+          </script>
 </body>
